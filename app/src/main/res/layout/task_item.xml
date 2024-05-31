@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+
+    <!-- TextView to display the task description -->
+    <TextView
+        android:id="@+id/textViewTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+
+    <!-- CheckBox to mark the task as completed.. this one was hard! -->
+    <CheckBox
+        android:id="@+id/checkBoxCompleted"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:paddingRight="70dp" />
+
+
+    <!-- Button to delete the task -->
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTask"
+        android:layout_alignParentRight="true"
+        android:text="Delete"
+        android:backgroundTint="#2196F3"
+        android:textColor="@color/button_text_White"/>
+
+</RelativeLayout>

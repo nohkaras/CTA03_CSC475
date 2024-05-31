@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CTA03_SKhon</string>
+    <color name="button_text">#4CAF50</color>
+    <color name="button_text2">#FF5722</color>
+    <color name="button_text_White">#FFFFFF</color>
+
+</resources>
